@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item type="id" name="tableLayout1">false</item>
+<item type="id" name="tableRow1">false</item>
+<item type="id" name="textInstallStatus_Caption">false</item>
+<item type="id" name="textInstallStatus">false</item>
+<item type="id" name="buttonInstall">false</item>
+<item type="id" name="buttonUninstall">false</item>
+<item type="id" name="tableLayout2">false</item>
+<item type="id" name="tableRow2">false</item>
+<item type="id" name="textSystemStatus_Caption">false</item>
+<item type="id" name="textSystemStatus">false</item>
+<item type="id" name="buttonReboot">false</item>
+<item type="id" name="buttonRebootWriteProtect">false</item>
+<item type="id" name="textView1">false</item>
+<item type="id" name="textView2">false</item>
+</resources>

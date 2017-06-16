@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wmon</string>
+<string name="install_recovery">Activate Monitor mode</string>
+<string name="uninstall_recovery">Stop monitor mode</string>
+<string name="reboot_recovery">Run airmon-ng</string>
+<string name="upgrade_recovery">Update binary</string>
+<string name="recovery_state_caption">State:</string>
+<string name="recovery_state_installed">Monitor mode activated</string>
+<string name="recovery_state_not_installed">Failed</string>
+<string name="system_status_caption">Reaver status :</string>
+<string name="system_status_not_active">Not Active</string>
+<string name="recovery_status_disabled">Not supported</string>
+<string name="instructions" />
+<string name="version">1.0Beta</string>
+<string name="disclaimer">"I am not responsible for any damage to your device/property. This app is only for educational purposes. Don't use it illegally. 
+
+1. Flash the linked file before activating monitor mode.
+
+2. Set system to R/W
+
+3. Set Monitor Mode
+
+4. Toggle Airplane mode on and off
+
+5. Enjoy"</string>
+<string name="status_installed">\#66FF99</string>
+<string name="status_notinstalled">\#FF0000</string>
+<string name="status_upgrade">\#FFFF00</string>
+<string name="reboot_write_protect">Reboot to Write Protect Off Mode</string>
+</resources>

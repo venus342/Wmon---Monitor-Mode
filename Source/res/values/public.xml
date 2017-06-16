@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<public type="drawable" name="ic_launcher" id="0x7f020000" />
+<public type="layout" name="main" id="0x7f030000" />
+<public type="string" name="app_name" id="0x7f040000" />
+<public type="string" name="install_recovery" id="0x7f040001" />
+<public type="string" name="uninstall_recovery" id="0x7f040002" />
+<public type="string" name="reboot_recovery" id="0x7f040003" />
+<public type="string" name="upgrade_recovery" id="0x7f040004" />
+<public type="string" name="recovery_state_caption" id="0x7f040005" />
+<public type="string" name="recovery_state_installed" id="0x7f040006" />
+<public type="string" name="recovery_state_not_installed" id="0x7f040007" />
+<public type="string" name="system_status_caption" id="0x7f040008" />
+<public type="string" name="system_status_not_active" id="0x7f040009" />
+<public type="string" name="recovery_status_disabled" id="0x7f04000a" />
+<public type="string" name="instructions" id="0x7f04000b" />
+<public type="string" name="version" id="0x7f04000c" />
+<public type="string" name="disclaimer" id="0x7f04000d" />
+<public type="string" name="status_installed" id="0x7f04000e" />
+<public type="string" name="status_notinstalled" id="0x7f04000f" />
+<public type="string" name="status_upgrade" id="0x7f040010" />
+<public type="string" name="reboot_write_protect" id="0x7f040011" />
+<public type="id" name="tableLayout1" id="0x7f050000" />
+<public type="id" name="tableRow1" id="0x7f050001" />
+<public type="id" name="textInstallStatus_Caption" id="0x7f050002" />
+<public type="id" name="textInstallStatus" id="0x7f050003" />
+<public type="id" name="buttonInstall" id="0x7f050004" />
+<public type="id" name="buttonUninstall" id="0x7f050005" />
+<public type="id" name="tableLayout2" id="0x7f050006" />
+<public type="id" name="tableRow2" id="0x7f050007" />
+<public type="id" name="textSystemStatus_Caption" id="0x7f050008" />
+<public type="id" name="textSystemStatus" id="0x7f050009" />
+<public type="id" name="buttonReboot" id="0x7f05000a" />
+<public type="id" name="buttonRebootWriteProtect" id="0x7f05000b" />
+<public type="id" name="textView1" id="0x7f05000c" />
+<public type="id" name="textView2" id="0x7f05000d" />
+</resources>

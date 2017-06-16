@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:weightSum="1.0">
+	<TableLayout android:id="@id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TableRow android:id="@id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textInstallStatus_Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:text="@string/recovery_state_caption" />
+			<TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textInstallStatus" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/recovery_state_not_installed" />
+		</TableRow>
+	</TableLayout>
+	<Button android:id="@id/buttonInstall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:text="@string/install_recovery" />
+	<Button android:id="@id/buttonUninstall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/uninstall_recovery" />
+	<TableLayout android:id="@id/tableLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TableRow android:id="@id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textSystemStatus_Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/system_status_caption" />
+			<TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textSystemStatus" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/system_status_not_active" />
+		</TableRow>
+	</TableLayout>
+	<Button android:id="@id/buttonReboot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:text="@string/reboot_recovery" />
+	<Button android:id="@id/buttonRebootWriteProtect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:text="@string/reboot_write_protect" />
+	<TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/instructions" />
+	<TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:text="@string/version" />
+</LinearLayout>
